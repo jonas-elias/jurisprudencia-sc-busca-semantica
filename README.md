@@ -1,6 +1,6 @@
 # 📚 Busca Semântica de Jurisprudências
 
-Este repositório contém o código necessário para a criação das collections de acordo com o modelo de linguagem utilizado (LLM) e realiza a busca de jurisprudências no banco vetorizado Qdrant. Os dados de jurisprudências são processados previamente no repositório [jonas-elias/jurisprudencia-sc-processamento](https://github.com/jonas-elias/jurisprudencia-sc-processamento).
+Este repositório contém o código necessário para a criação das collections de acordo com o modelo de linguagem utilizado e realiza a busca de jurisprudências no banco vetorizado Qdrant. Os dados de jurisprudências são processados previamente no repositório [jonas-elias/jurisprudencia-sc-processamento](https://github.com/jonas-elias/jurisprudencia-sc-processamento).
 
 ## 📋 Requisitos
 
@@ -17,4 +17,4 @@ A criação da collection envolve armazenar os vetores com os pesos semânticos,
 
 ## 🔍 Busca Semântica
 
-A busca semântica é realizada por meio do LLM, que recebe a pergunta/termo e gera o embedding específico. Esse embedding possibilita a busca a partir de um vetor enviado ao banco de dados vetorial Qdrant, permitindo assim uma busca contextualizada das jurisprudências.
+A busca semântica é realizada por meio do modelo de linguagem, que recebe a pergunta/termo e gera o embedding específico. Esse embedding possibilita a busca a partir de um vetor enviado ao banco de dados vetorial Qdrant, permitindo assim uma busca contextualizada das jurisprudências.
